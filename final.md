@@ -12,8 +12,9 @@
 	* PUT - update a resource
 	* DELETE - delete a resource
 	* status codes
+		* 100 - informational
 		* 200 - OKAY
-		* 300 - informational/redirects
+		* 300 - redirects
 		* 400 - client side error
 		* 500 - server side error
 3. Label all parts of a URL
