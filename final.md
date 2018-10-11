@@ -2,7 +2,7 @@
 ## October 11th, 2018
 
 1. Bootstrap components
-	* container - create fixed width containers and container fluid - creates 100% 
+	* container - create fixed width containers and container fluid creates 100% 
 	* row is a responsive container for columns
 	* col-*-* creates a response grid for the screen size and column length
 	* default font size is 14 px
@@ -27,15 +27,20 @@
 		* & - adding another query
 4. Define and describe the characteristics of Node.js
 	* Node.js is a js runtime
+	* async I/O
+	* event driven
 	* allows javascript code to be ran inside the command line
 	* very small std lib, allowing users to create all the resources needed for bootstrapping a project 
 5. Conventional environment strategy
 	* Development
 		* PATH variable correctly setup
 		* set on one text editor and it's customized to your liking
-		* hidden keys in .env files
+		* secret keys in .env files
+	* Staging
+		* C/I that automates testing before being pushed to production
 	* Production
-		* C/I that automates testing
+		* ENV variables configured
+		* Proper server configurations
 	* Model view controller architecture (not apart of this section, but still relevant)
 		* Model - handles the creation, deletion, and manipulation of data
 		* View - what the user physically sees and interacts with
