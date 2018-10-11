@@ -29,10 +29,13 @@
 	* allows javascript code to be ran inside the command line
 	* very small std lib, allowing users to create all the resources needed for bootstrapping a project 
 5. Conventional environment strategy
-	* PATH variable correctly setup
-	* set on one text editor and it's customized to your liking'
-	* MVC
-	* Model view controller architecture
+	* Development
+		* PATH variable correctly setup
+		* set on one text editor and it's customized to your liking
+		* hidden keys in .env files
+	* Production
+		* C/I that automates testing
+	* Model view controller architecture (not apart of this section, but still relevant)
 		* Model - handles the creation, deletion, and manipulation of data
 		* View - what the user physically sees and interacts with
 		* Controllers - handles requests made by the user. interacts with both the model and view
